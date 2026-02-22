@@ -455,27 +455,26 @@ body {
   color: #ffffff; 
 }
 
-
-/* ============ RESPONSIVE DESIGN on ohone and tablet ============ */
+/* ============ RESPONSIVE DESIGN on phone and tablet ============ */
 @media (max-width: 768px) {
 
   body, html {
-    background-color: #081b29 !important; 
+    background-color: #081b29 !important;
     overflow-x: hidden;
   }
 
   .header {
-    flex-direction: column; 
+    flex-direction: column;
     padding: 15px 5%;
     gap: 10px;
     background-color: #081b29;
   }
-  
+
   .logo { font-size: 1.8rem; }
   .logo-pic { width: 35px; height: 35px; }
-  
+
   .navbar ul {
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
     justify-content: center;
     gap: 12px;
   }
@@ -523,156 +522,4 @@ body {
   }
   
   .contact-content { flex-direction: column; }
-}media (max-width: 768px) {
-
-  .header {
-    flex-direction: column; 
-    padding: 15px 5%;
-    gap: 10px;
-  }
-  .logo {
-    font-size: 1.8rem; 
-  }
-  .logo-pic {
-    width: 35px; 
-    height: 35px;
-  }
-  .navbar ul {
-    flex-wrap: wrap; 
-    justify-content: center;
-    gap: 12px;
-  }
-  .navbar ul li a {
-    font-size: 14.5px;
-  }
-  
-  .hero {
-    flex-direction: column;
-    text-align: center;
-
-    padding: 140px 5% 20px 5%; 
-  }
-  .hero-content {
-    max-width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
-  }
-  .hero-content h1 {
-    font-size: 2.2rem; 
-  }
-  .hero-content h2 {
-    font-size: 1.4rem;
-    margin-bottom: 20px;
-  }
-  
-  .hero-buttons {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 15px;
-    margin-bottom: 40px; 
-    width: 100%;
-  }
-  .btn {
-    margin: 0;
-  }
-
-  .hero-image {
-    margin-top: 10px;
-    display: flex;
-    justify-content: center;
-  }
-  .hero-image img {
-    max-width: 100%;
-    width: 280px;
-  }
-
-
-  .about-section, .skills-section, .projects-section, .contact-section {
-    padding: 50px 5%; 
-  }
-  
-
-  .contact-content {
-    flex-direction: column;
-  }
-}@media (max-width: 768px) {
-
-  .header {
-    flex-direction: column; 
-    padding: 15px 5%;
-    gap: 10px;
-  }
-  .logo {
-    font-size: 1.8rem;
-  }
-  .logo-pic {
-    width: 35px; 
-    height: 35px;
-  }
-  .navbar ul {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 12px;
-  }
-  .navbar ul li a {
-    font-size: 14.5px;
-  }
-  
-
-  body {
-    padding-top: 180px; 
-  }
-
-
-  .hero {
-    flex-direction: column;
-    text-align: center;
-    padding: 20px 5%;
-  }
-  .hero-content {
-    max-width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .hero-content h1 {
-    font-size: 2.2rem; 
-  }
-  .hero-content h2 {
-    font-size: 1.4rem;
-    margin-bottom: 20px;
-  }
-
-  .hero-buttons {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 15px;
-    margin-bottom: 40px;
-    width: 100%;
-  }
-  .btn {
-    margin: 0;
-  }
-
-  .hero-image {
-    margin-top: 10px;
-    display: flex;
-    justify-content: center;
-  }
-  .hero-image img {
-    max-width: 100%;
-    width: 280px;
-  }
-
-
-  .about-section, .skills-section, .projects-section, .contact-section {
-    padding: 50px 5%; 
-  }
-
-  .contact-content {
-    flex-direction: column;
-  }
 }
