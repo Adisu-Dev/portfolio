@@ -456,67 +456,83 @@ body {
 }
 
 
+/* ============ RESPONSIVE DESIGN on ohone and tablet ============ */
 @media (max-width: 768px) {
 
   .header {
     flex-direction: column; 
     padding: 15px 5%;
-    gap: 15px;
+    gap: 10px;
+  }
+  .logo {
+    font-size: 1.8rem;
+  }
+  .logo-pic {
+    width: 35px; 
+    height: 35px;
   }
   .navbar ul {
     flex-wrap: wrap;
     justify-content: center;
-    gap: 15px;
+    gap: 12px;
   }
+  .navbar ul li a {
+    font-size: 14.5px;
+  }
+  
+
   body {
-    padding-top: 130px; 
+    padding-top: 180px; 
   }
+
 
   .hero {
     flex-direction: column;
     text-align: center;
-    padding: 40px 5%;
+    padding: 20px 5%;
   }
   .hero-content {
     max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .hero-content h1 {
-    font-size: 2.5rem; 
-  .hero-content h2 {
-    font-size: 1.5rem;
+    font-size: 2.2rem; 
   }
+  .hero-content h2 {
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+  }
+
+  .hero-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 40px;
+    width: 100%;
+  }
+  .btn {
+    margin: 0;
+  }
+
   .hero-image {
-    margin-top: 40px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
   }
   .hero-image img {
     max-width: 100%;
-    width: 280px; 
-  }
-  .hero-buttons {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    align-items: center;
-  }
-  .btn {
-    margin-right: 0;
-    width: 80%; 
+    width: 280px;
   }
 
-  
+
   .about-section, .skills-section, .projects-section, .contact-section {
-    padding: 60px 5%; 
-  }
-  .container {
-    width: 95%;
+    padding: 50px 5%; 
   }
 
-  
   .contact-content {
     flex-direction: column;
-    text-align: center;
-  }
-  .contact-form button {
-    width: 100%; 
   }
 }
