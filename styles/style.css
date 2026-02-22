@@ -472,9 +472,8 @@ body {
     padding-top: 130px; 
   }
 
-  
   .hero {
-    flex-direction: column; 
+    flex-direction: column;
     text-align: center;
     padding: 40px 5%;
   }
